@@ -1,0 +1,48 @@
+body{ 
+    background-image: linear-gradient(#3b1566, #5f4da8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    color: #d6d6ea;
+}
+
+.container-aplicativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informacoes-faixa { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 3rem 0 2rem 0;
+}
+
+.informacoes-faixa #capitulo { 
+   padding-bottom: 35px;
+}
+
+button { 
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+#voltar, #proximo { 
+    font-size: 3rem;
+}
+
+#play-pause { 
+    font-size: 4rem;
+}
+
+.container-butoes { 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
